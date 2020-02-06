@@ -117,16 +117,16 @@ définir l'étendue de chaque classe
   -ms-grid-column: 2;
   grid-column: 2;
   -ms-grid-row: 7;
-  -ms-grid-row-span: 4;
-  grid-row: 7/11;
+  -ms-grid-row-span: 5;
+  grid-row: 7/12;
 }
 
 .cours2 {
   -ms-grid-column: 3;
   grid-column: 3;
   -ms-grid-row: 8;
-  -ms-grid-row-span: 3;
-  grid-row: 8/11;
+  -ms-grid-row-span: 4;
+  grid-row: 8/12;
 }
 
 .cours3 {
@@ -134,37 +134,69 @@ définir l'étendue de chaque classe
   grid-column: 4;
   -ms-grid-row: 5;
   grid-row: 5;
+  background-color: green;
+  color: white;
 }
 
 .cours4 {
   -ms-grid-column: 4;
   grid-column: 4;
   -ms-grid-row: 7;
-  -ms-grid-row-span: 2;
-  grid-row: 7/9;
+  -ms-grid-row-span: 3;
+  grid-row: 7/10;
 }
 
 .cours5 {
   -ms-grid-column: 5;
   grid-column: 5;
   -ms-grid-row: 2;
-  -ms-grid-row-span: 3;
-  grid-row: 2/5;
+  -ms-grid-row-span: 4;
+  grid-row: 2/6;
 }
 
 .cours6 {
   -ms-grid-column: 5;
   grid-column: 5;
   -ms-grid-row: 8;
-  -ms-grid-row-span: 3;
-  grid-row: 8/11;
+  -ms-grid-row-span: 4;
+  grid-row: 8/12;
 }
 
 .cours7 {
   -ms-grid-column: 6;
   grid-column: 6;
   -ms-grid-row: 7;
-  -ms-grid-row-span: 2;
-  grid-row: 7/9;
+  -ms-grid-row-span: 3;
+  grid-row: 7/10;
+}
+
+.cours1, .cours2, .cours3, .cours4, .cours5, .cours6, .cours7, .h8, .h9, .h10, .h11, .h12, .h13, .h14, .h15, .h16, .h17, .lundi, .mardi, .mercredi, .jeudi, .vendredi {
+  border: 2px black solid;
+  text-align: center;
+}
+
+.cours1, .cours5 {
+  background-color: lightblue;
+}
+
+.cours2, .cours6 {
+  background-color: lavender;
+}
+
+.cours4, .cours7 {
+  background-color: purple;
+  color: white;
+}
+
+.cours1, .cours2, .cours3, .cours4, .cours5, .cours6, .cours7 {
+  border-radius: 5%;
+}
+
+.h8, .h9, .h10, .h11, .h12, .h13, .h14, .h15, .h16, .h17 {
+  background-color: #8da5df;
+}
+
+.lundi, .mardi, .mercredi, .jeudi, .vendredi {
+  background-color: #f0c97d;
 }
 /*# sourceMappingURL=style.css.map */

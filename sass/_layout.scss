@@ -98,35 +98,68 @@ définir l'étendue de chaque classe
 
 .cours1{
     grid-column: 2;
-    grid-row: 7/11;
+    grid-row: 7/12;
 }
 
 .cours2{
     grid-column: 3;
-    grid-row: 8/11;
+    grid-row: 8/12;
 }
 
 .cours3{
     grid-column: 4;
     grid-row: 5;
+    background-color: $couleurS;
+    color: white;
 }
 
 .cours4{
     grid-column: 4;
-    grid-row: 7/9;
+    grid-row: 7/10;
 }
 
 .cours5{
     grid-column: 5;
-    grid-row: 2/5;
+    grid-row: 2/6;
 }
 
 .cours6{
     grid-column: 5;
-    grid-row: 8/11;
+    grid-row: 8/12;
 }
 
 .cours7{
     grid-column: 6;
-    grid-row: 7/9;
+    grid-row: 7/10;
+}
+
+.cours1,.cours2,.cours3,.cours4,.cours5,.cours6,.cours7,.h8,.h9,.h10,.h11,.h12,.h13,.h14,.h15,.h16,.h17,.lundi,.mardi,.mercredi,.jeudi,.vendredi{
+    border: 2px black solid;
+    text-align: center;
+}
+
+.cours1,.cours5{
+    
+    background-color: $couleurPFE;
+}
+
+.cours2,.cours6{
+    background-color: $couleurPVT;
+}
+
+.cours4,.cours7{
+    background-color: $couleurV;
+    color: white;
+}
+
+.cours1,.cours2,.cours3,.cours4,.cours5,.cours6,.cours7{
+    border-radius: 5%;
+}
+
+.h8,.h9,.h10,.h11,.h12,.h13,.h14,.h15,.h16,.h17{
+    background-color: lighten($couleurH,40%);
+}
+
+.lundi,.mardi,.mercredi,.jeudi,.vendredi{
+    background-color: $couleurJ;
 }
