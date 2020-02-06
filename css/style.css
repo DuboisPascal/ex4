@@ -29,14 +29,10 @@ header {
 /*
 définir l'étendue de chaque classe
 */
-.h8, .h9, .h10, .h11, .h12, .h13, .h14, .h15, .h16, .h17 {
-  -ms-grid-column: 1;
-  grid-column: 1;
-}
-
 .h8 {
   -ms-grid-row: 2;
-  grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: 2/1;
 }
 
 .h9 {
