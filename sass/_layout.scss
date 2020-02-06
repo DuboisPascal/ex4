@@ -1,0 +1,97 @@
+body{
+    margin: 40px;
+}
+
+header{
+    text-align: center;
+}
+
+.conteneur {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0px;
+    background-color: #fff;
+    color: #444;
+}
+
+.boite {
+    background-color: rgb(221, 127, 127);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+/*
+définir l'étendue de chaque classe
+*/
+
+.h8,.h9,.h10,.h11,.h12,.h13,.h14,.h15,.h16,.h17{
+    grid-column: 1;
+}
+
+.h8{
+    grid-row: 2;
+}
+
+.h9{
+    grid-row: 3;
+}
+
+.h10{
+    grid-row: 4;
+}
+
+.h11{
+    grid-row: 5;
+}
+
+.h12{
+    grid-row: 6;
+}
+
+.h13{
+    grid-row: 7;
+}
+
+.h14{
+    grid-row: 8;
+}
+
+.h15{
+    grid-row: 9;
+}
+
+.h16{
+    grid-row: 10;
+}
+
+.h17{
+    grid-row: 11;
+}
+
+
+
+.lundi,.mardi,.mercredi,.jeudi,.vendredi{
+    grid-row: 1;
+}
+
+.lundi{
+    grid-column: 2;
+}
+
+.mardi{
+    grid-column: 3;
+}
+
+.mercredi{
+    grid-column: 4;
+}
+
+.jeudi{
+    grid-column: 5;
+}
+
+.vendredi{
+    grid-column: 6;
+}

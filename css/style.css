@@ -1,0 +1,115 @@
+@charset "UTF-8";
+body {
+  margin: 40px;
+}
+
+header {
+  text-align: center;
+}
+
+.conteneur {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 0px;
+  background-color: #fff;
+  color: #444;
+}
+
+.boite {
+  background-color: #dd7f7f;
+  color: white;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+/*
+définir l'étendue de chaque classe
+*/
+.h8, .h9, .h10, .h11, .h12, .h13, .h14, .h15, .h16, .h17 {
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+.h8 {
+  -ms-grid-row: 2;
+  grid-row: 2;
+}
+
+.h9 {
+  -ms-grid-row: 3;
+  grid-row: 3;
+}
+
+.h10 {
+  -ms-grid-row: 4;
+  grid-row: 4;
+}
+
+.h11 {
+  -ms-grid-row: 5;
+  grid-row: 5;
+}
+
+.h12 {
+  -ms-grid-row: 6;
+  grid-row: 6;
+}
+
+.h13 {
+  -ms-grid-row: 7;
+  grid-row: 7;
+}
+
+.h14 {
+  -ms-grid-row: 8;
+  grid-row: 8;
+}
+
+.h15 {
+  -ms-grid-row: 9;
+  grid-row: 9;
+}
+
+.h16 {
+  -ms-grid-row: 10;
+  grid-row: 10;
+}
+
+.h17 {
+  -ms-grid-row: 11;
+  grid-row: 11;
+}
+
+.lundi, .mardi, .mercredi, .jeudi, .vendredi {
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+.lundi {
+  -ms-grid-column: 2;
+  grid-column: 2;
+}
+
+.mardi {
+  -ms-grid-column: 3;
+  grid-column: 3;
+}
+
+.mercredi {
+  -ms-grid-column: 4;
+  grid-column: 4;
+}
+
+.jeudi {
+  -ms-grid-column: 5;
+  grid-column: 5;
+}
+
+.vendredi {
+  -ms-grid-column: 6;
+  grid-column: 6;
+}
+/*# sourceMappingURL=style.css.map */
